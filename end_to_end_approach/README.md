@@ -1,0 +1,30 @@
+# Time Resolved Laser Energy Absorptance Prediction using the End-to-End Approach
+
+## Data
+A fragment of the raw absorptance data is available in the following links:
+1. [A-AMB2022-01 Benchmark Challenge Problems](https://www.nist.gov/ambench/amb2022-01-benchmark-challenge-problems)
+2. [Asynchronous AM Bench 2022 Challenge Data: Real-time, simultaneous absorptance and high-speed Xray imaging](https://data.nist.gov/od/id/mds2-2525)
+
+To get the full dataset for the absorptance prediction, please send your request to either of the following people
+* Runbo Jiang (rubyjiang2017@gmail.com or runboj@andrew.cmu.edu)
+* Brian Simonds (brian.simonds@nist.gov)
+
+<p align="center">
+<img src="docs/absorptance_dataset.png" height="300">
+<br>
+<b>Laser energy absorptance dataset description</b>
+</p>
+
+## Requirements
+The following packages are required to run the training program:
+
+| Package  | Version  |
+| :------------ |:---------------|
+| CUDA                  | 11.0    |
+| Python                | 3.8.5   |
+
+
+
+## Acknowledgement
+This work is implemented using [ResNet50](https://github.com/KaimingHe/deep-residual-networks) and [ConvNeXt_tiny](https://github.com/facebookresearch/ConvNeXt). The model interpretation deployed the [CAM](https://github.com/jacobgil/pytorch-grad-cam). 
+
