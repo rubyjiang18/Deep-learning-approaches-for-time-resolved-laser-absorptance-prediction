@@ -9,6 +9,8 @@ To get the full dataset for the absorptance prediction, please send your request
 * Runbo Jiang (rubyjiang2017@gmail.com or runboj@andrew.cmu.edu)
 * Brian Simonds (brian.simonds@nist.gov)
 
+For full data description, please read the the Table 2 and Table 3 of the paper.
+
 <!-- <p align="center">
 <img src="docs/absorptance_dataset.png" height="300">
 <br>
