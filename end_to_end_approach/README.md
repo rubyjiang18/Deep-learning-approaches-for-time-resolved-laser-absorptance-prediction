@@ -9,11 +9,11 @@ To get the full dataset for the absorptance prediction, please send your request
 * Runbo Jiang (rubyjiang2017@gmail.com or runboj@andrew.cmu.edu)
 * Brian Simonds (brian.simonds@nist.gov)
 
-<p align="center">
+<!-- <p align="center">
 <img src="docs/absorptance_dataset.png" height="300">
 <br>
 <b>Laser energy absorptance dataset description</b>
-</p>
+</p> -->
 
 ## Requirements
 The following packages are required to run the training program:
