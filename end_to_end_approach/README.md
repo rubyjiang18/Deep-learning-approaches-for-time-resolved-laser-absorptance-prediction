@@ -22,6 +22,9 @@ The following packages are required to run the training program:
 | :------------ |:---------------|
 | CUDA                  | 11.0    |
 | Python                | 3.8.5   |
+| Pytorch |
+| torchvision |
+| imagecodecs |
 
 
 
