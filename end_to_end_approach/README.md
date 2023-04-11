@@ -28,6 +28,13 @@ The following packages are required to run the training program:
 | torchvision |
 | imagecodecs |
 
+## To run the model training code
+1. Set up AWS, Google Colab, or any other platform that has GPU support to train deep learning models
+2. Install all necessary packages
+3. Train the model
+    - To train the model in Jupyter Notebook, open the **model_train_aws.ipynb** file, and run each block sequentially. 
+    - To run the model using **run.py** file, you can use the following command: `python run.py convnext --pretrain True --split_num 1`
+    - In both methods, rememeber to change file path to where you store the data.
 
 
 ## Acknowledgement

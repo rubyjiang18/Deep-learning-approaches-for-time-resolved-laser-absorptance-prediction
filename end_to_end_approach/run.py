@@ -12,11 +12,12 @@ from utils import initiate_model, cosine_scheduler, train, validation, save_mode
 # Create the argument parser
 parser = argparse.ArgumentParser()
 # Add arguments to the parser
-parser.add_argument('--model_name', type=str, default='convnext', help='Model name')
+parser.add_argument('model_name', type=str, default='convnext', help='Model name')
 parser.add_argument('--pretrain', type=bool, default=False, help='Pretrained on ImageNet')
 parser.add_argument('--split_num', type=str, default='1', help='Split number')
 # Parse the arguments
 args = parser.parse_args()
+print(args)
 
 ### Set up device
 cuda = torch.cuda.is_available()
@@ -40,7 +41,7 @@ val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, num_w
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers=1)
 
 ### Load model
-model_name = args.model_name if args.model_name in ["resnet", "convnext"] else "resnet"
+model_name = args.model_name if args.model_name in ["resnet", "convnext"] else "convnext"
 pretrain_flag = args.pretrain if args.pretrain in [True, False] else False
 torch.cuda.empty_cache()
 model = initiate_model(model_name, pretrained=pretrain_flag)
