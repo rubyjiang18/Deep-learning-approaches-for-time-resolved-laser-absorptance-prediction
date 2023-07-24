@@ -1,6 +1,6 @@
 # Vapor Depression Geometric Feature Extraction from Segmented Masks
 
-Feature extraction is straight and only requires a good segmentation mask. For example, using the following example masks, we show that it is just array manipulations. In the following mask, 0 indicate a black pixel (background), and 1 indicate a white pixel (vapor depression). 
+Feature extraction is straight and only requires a good segmentation mask, where you have to make sure there is only one keyhole, and no noises, pores, etc. For example, using the following example masks, we show that it is just array manipulations. In the following mask, 0 indicate a black pixel (background), and 1 indicate a white pixel (vapor depression). 
 
 000000 \
 001100 \
@@ -34,5 +34,6 @@ if contours:
     perimeter = cv.arcLength(cnt,True)
 ```
 6. Front wall angle
+7. ...
 
 See the file for detailed solution.
