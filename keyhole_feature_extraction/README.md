@@ -7,7 +7,7 @@ Feature extraction is straight and only requires a good segmentation mask. For e
 001110 \
 001100 \
 001000 \
-000000 \
+000000 
 
 The features we can extracts are 
 1. number white pixel (can be converted to area, the length of each pixel is 1.923 um in our experiment, so number of white pixel × 1.923 × 1.923 gives you the area of keyhole)
