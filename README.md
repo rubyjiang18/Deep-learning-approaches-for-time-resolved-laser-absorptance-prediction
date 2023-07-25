@@ -6,6 +6,9 @@ You can find the code to train ResNet-50 and ConvNeXt-T for laser energy absorpt
 ### Folder "semantic_segmentation"
 You can find code to train segmentation models to segmentent keyholes from the x-ray images. The geometric features can be easily extracted from the keyhole segments. See README.md file in this folder for detailed documentataions.
 
+### Folder "opencv_segmentation"
+You can find the thresholding method to segment keyholes in this folder using the opencv package.
+
 ### Folder "keyhole_feature_extraction" 
 You can find the code to extract keyhole geometric features from segmented masks.
 
